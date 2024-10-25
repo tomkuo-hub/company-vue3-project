@@ -1,39 +1,51 @@
-# vueapp3.client
+ÃD¥Ø
+±q¤W¥«¤½¥q¨C¤ëÀç·~¦¬¤J·JÁ`ªí ¡U ¬F©²¸ê®Æ¶}©ñ¥­»O¡A¨ú±o¸ê®Æ«á¡A¥i¦b«eºÝ¤¶­±ÂÇ¥Ñ¤½¥q¥N¸¹¬d¸ß¬ÛÃö¸ê®Æ¡C
+„«±zÀ³§¹¦¨¦U¶¥¬q¹ê§@¥Ø¼Ð«á¡A¦A¶i¦æ¥[¤À¶µ¤Î¾ãÅé³nÅé¬[ºc¤§½Õ¾ã¡C
+„«¥i¨Ï¥Î¦¹³sµ²¤U¸ü csv ÀÉ¡A³sµ²¥¢®Ä©Î¨ä¥L®æ¦¡½Ð¨Ï¥Î¤W¤è³sµ²¦Û¦æ¬d§ä¡C
+„«Ãº¥æ¤è¦¡¡G½Ð¤W¶Ç¦Ügithub­Ó¤HªÅ¶¡«á¡A¦A´£¨Ñ³sµ²¡C
 
-This template should help get you started developing with Vue 3 in Vite.
+¥H¤U¬O±zªº¥²­n¹ê§@¶µ¥Ø¡G
+1.«Ø¥ß¸ê®Æªí¡B¹w¦sµ{§Ç¡A
+A.¥²¶·¥]§t¡G
+„«¥Ø¼Ð¸ê®Æ®w¶·¬° MSSQL
+„«¸ê®Æ®w±M®×¡A¥]§t¦Ü¤Ö¤@¸ê®Æªí¡B¨â¤ä¹w¦sµ{§Ç(insert/select)
+„«Á×§K³Q SQL Injection
+B.Åç¦¬¼Ð·Ç¡G
+„«¥Ø¼Ð¸ê®Æ®w¥¿½T
+„«¸ê®Æ®wÄæ¦ì§¹¥þ¹ï¼Ð¸ê®Æ¨Ó·½
+„«¹w¦sµ{§Ç¥i¥¿±`°õ¦æ
+C.¥[¤À¶µ¡G
+„«¥¿½T«Ø¥ßÁä­È
+„«¥¿½T«Ø¥ß¯Á¤Þ
+„«¸ê®ÆÀx¦s»P­ì©l¸ê®Æ¬Û¦P
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+2.«Ø¥ß API ±M®×
+A.¥²¶·¥]§t¡G
+„««Ø¥ß API ±M®×¡A¥Ø¼Ð»y¨¥¬° .NET6
+„«¬d¸ß API * 1¡B·s¼W¸ê®Æ API * 1
+B.Åç¦¬¼Ð·Ç¡G
+„«API ¥i³Q¥¿½T°õ¦æ
+„«¸ê®Æ¦³³Q¥¿½T¼g¤J¸ê®Æ®w¤¤
+„«¨Ï¥Îªº¥Ø¼Ð»y¨¥¥¿½T
+C.¥[¤À¶µ¡G
+„«¨Ï¥Î action filter ¨Ó¶i¦æ¥þ°ìªº¿ù»~³B²z©Î¬OLog ³B²z
+„«¦³ swagger ­¶­±¥i§@¬d¸ß
+„«¨Ï¥Î MediatR ¨Ó¶i¦æ¤¤¤¶³B²z
+„«¦³¨Ï¥Î AutoMapper ¨Ó¶i¦æ¸ê®Æ®wª«¥ó»P¿é¥Xª«¥óªºÂà´«
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+3.«Ø¥ß Web ±M®×
+A.¥²¶·¥]§t¡G
+„««Ø¥ß Web ±M®×¡A¥Ø¼Ð»y¨¥¬° .NET6
+„««Ø¥ß«eºÝ­¶­±¡A¥Ø¼Ð»y¨¥¬° vue 3(vite)
+B.Åç¦¬¼Ð·Ç¡G
+„«­¶­±¥¿½TÅã¥Ü©Ò¦³¬d¸ß«áªº¸ê°T
+„«¨Ï¥Îªº¥Ø¼Ð»y¨¥¥¿½T
+C.¥[¤À¶µ¡G
+„«§ä¨ì¦X¾Aªº³õ´º¨Ï¥Î vue ªº¦UÃþ°òÂ¦»yªk¡A¨Ò¦p¡Gcomputed¡Bv-bind¡Bv-on¡Bv-if/v-show¡Bv-for¡Bwatch
+³o¬O¤@­Ó½d¨Ò¡GÁ`¸ê®Æµ§¼Æ³z¹L computed ¨Ó¶i¦æ§e²{
+³o¬O¥t¤@­Ó½d¨Ò¡G¨ú±o Àç·~¦¬¤J-¥h¦~¦P¤ë¼W´î(%) «á¡A¨Ï¥Î computed ¥|±Ë¤­¤J¦Ü¤p¼Æ²Ä¤G¦ì
+„«ªì¦¸¶i¤J­¶­±®É¬d¸ß¥þ³¡¸ê®Æ¡A³z¹L¥Í©R¶g´Á¨Ó¶i¦æ
+„«¤£¨Ï¥Î¨ä¥L²Ä¤T¤è®M¥ó(¨Ò¦p JQuery ¨Ó§¹¦¨»Ý¨D)
